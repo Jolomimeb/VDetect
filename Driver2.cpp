@@ -3,7 +3,7 @@
 #include <vector>
 enum RANDOM {UNIFORMINT, UNIFORMREAL, NORMAL};
 class Random {
-public:
+public: 
     Random(int min, int max, RANDOM type=UNIFORMINT, int mean=50, int stdev=20) : m_min(min), m_max(max), m_type(type)
     {
         if (type == NORMAL){
